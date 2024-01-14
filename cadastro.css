@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(15, 15, 15);
+}
+
+nav a{
+    color: rgb(109, 101, 91);
+    font-family: sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover{
+    color:bisque
+}
+
+div{
+    background-color: rgb(202, 160, 81);
+}
+
+body{
+    background-color: white
+}
+
+.header{
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.row{
+    padding: 3px;
+}
+
+.row .col-2{
+    text-align: left;
+}
+.row .col-4 input{
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+
+}
+.row .col-8 input{
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+    width: 537px;
+}
+.row .col-3 input{
+    background:#f2f2f2;
+    border:none;
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.row .col-6 p{
+    text-align: center;
+}
+.row .col-6 input{
+    margin-left: 20px;
+}
+
+#container{
+    background-color: rgb(202, 160, 81); 
+    min-height: 490px;
+    min-width: 300px; 
+    padding-top: 50px;;  
+}
+
+button{
+    border-radius: 3px;
+    background-color: rgb(15, 15, 15);
+    color: bisque;
+    padding: 5px 9px;
+    border: solid rgb(15, 15, 15);;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 7px;
+}
+
